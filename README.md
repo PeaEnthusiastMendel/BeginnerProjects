@@ -1,7 +1,3 @@
-# ListLessThanTen
 # BeginnerProjects
-# BeginnerProjects
-# BeginnerProjects
-# BeginnerProjects
-# BeginnerProjects
-# BeginnerProjects
+
+  Just another repository.
