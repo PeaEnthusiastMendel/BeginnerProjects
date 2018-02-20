@@ -19,3 +19,5 @@ for i in range(len(FilesDir)):
     file = open (FilesDir[i], "r")
     content = file.read()
     print("\n contents of file "+str(i+1)+": "+str(content))
+    file.seek(0)
+    print("char count: "+str(len(content)))
