@@ -16,16 +16,21 @@ for i in range(FileNum):
 print(FilesDir)
 
 #reads each file
+contPrint= input("print contents? y/n: ")
+
 for i in range(len(FilesDir)):
     file = open (FilesDir[i], "r")
     content = file.read()
     FilesCont.append(content)
-    file.seek(0)
-    print("\n contents of file "+str(i+1)+": "+str(content))
+    if contPrint == "y":
+        file.seek(0)
+        print("\n contents of file "+str(i+1)+": "+str(content))
     file.seek(0)
     charcounts.append(len(content))
+
 
 print(charcounts)
 large = max(charcounts)
 location = charcounts.index(max(charcounts))
 print("Largets file: File number "+str(location)+" at "+str(large)+" characters.")
+   
