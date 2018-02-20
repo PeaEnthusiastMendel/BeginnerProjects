@@ -15,7 +15,7 @@
     3. 
   
   Sources:
-    *Sololearn
-    *Datacamp
-    *PythonPractice
-    *And who could forget **Stack Overflow!**
+    * [Sololearn](https://www.sololearn.com/courses/)
+    * [Datacamp](https://www.datacamp.com/courses/intro-to-python-for-data-science)
+    * [PracticePython](http://www.practicepython.org/)
+    * And who could forget **[Stack Overflow!](https://stackoverflow.com/)**
